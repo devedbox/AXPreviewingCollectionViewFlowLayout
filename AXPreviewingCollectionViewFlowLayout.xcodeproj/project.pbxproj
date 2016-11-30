@@ -15,6 +15,7 @@
 		DC420C291DEE7A84007050B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC420C271DEE7A84007050B9 /* LaunchScreen.storyboard */; };
 		DC420C341DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC420C331DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutTests.m */; };
 		DC420C3F1DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC420C3E1DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutUITests.m */; };
+		DC420C4F1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC420C4E1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DC420C3A1DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXPreviewingCollectionViewFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC420C3E1DEE7A84007050B9 /* AXPreviewingCollectionViewFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXPreviewingCollectionViewFlowLayoutUITests.m; sourceTree = "<group>"; };
 		DC420C401DEE7A84007050B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC420C4D1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPreviewingCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		DC420C4E1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPreviewingCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				DC420C1D1DEE7A84007050B9 /* AppDelegate.m */,
 				DC420C1F1DEE7A84007050B9 /* ViewController.h */,
 				DC420C201DEE7A84007050B9 /* ViewController.m */,
+				DC420C4C1DEE7AA6007050B9 /* Classes */,
 				DC420C221DEE7A84007050B9 /* Main.storyboard */,
 				DC420C251DEE7A84007050B9 /* Assets.xcassets */,
 				DC420C271DEE7A84007050B9 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				DC420C401DEE7A84007050B9 /* Info.plist */,
 			);
 			path = AXPreviewingCollectionViewFlowLayoutUITests;
+			sourceTree = "<group>";
+		};
+		DC420C4C1DEE7AA6007050B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC420C4D1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.h */,
+				DC420C4E1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				DC420C211DEE7A84007050B9 /* ViewController.m in Sources */,
 				DC420C1E1DEE7A84007050B9 /* AppDelegate.m in Sources */,
 				DC420C1B1DEE7A84007050B9 /* main.m in Sources */,
+				DC420C4F1DEE7AC0007050B9 /* AXPreviewingCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
